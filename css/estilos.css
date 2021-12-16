@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* fonts */
+
+@font-face {
+    font-family: gisrida;
+    src: url(../assets/font/gisrida.ttf);
+  }
+
+@font-face {
+    font-family: gotham-italic;
+    src: url(../assets/font/GothamBookItalic.ttf);
+  }
+
+/* fonts */
+
+body {
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    padding: 20px 10px;
+    margin-bottom: 10%;
+    border: solid 20px #252326;
+    position: sticky;
+    border-radius: 10px;
+}
+
+.header__logo{
+    background-color: white;
+    max-width: 20%;
+    border-radius: inherit;
+}
+
+.header__nav {
+    background-color: black ;
+    padding: 1rem;
+    right: 0;
+    font-family: gotham-italic;
+    border-radius: inherit;
+
+}
+
+.header__list {
+  list-style: none;
+  display: flex;
+  margin: 0px 1rem;
+  border-radius: 1px;
+}
+
+.header__item {
+    display: inline-block;
+    background-color: white;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px 5px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+
+.hero {
+    height: 50vh;
+    background-image: url("/css/bckgr-mariposa.png");
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: white;
+    background-size: contain;
+}
+
+.main__section {
+    padding: 15px 25px 20px 55px;
+    border: solid 10px #252326;
+    margin: 5%;
+}
+
+.main__space{
+    height: 700vh;
+}
+
+.main_article {
+    padding: 10px 20px 15px 50px;
+}
+
+.main__h1 {
+    color: #252326;
+    font-style: normal;
+    font-size: 4rem;
+    font-family: gisrida;
+    width: 100px;
+}
+
+.main__h2 {
+    /* align-items: center;
+    font-style: normal; */
+    color: #252326;
+    font-size: 2rem;
+    font-family: gotham-italic;
+    width: 50vh;
+    height: 5vh;
+}
+
+/* .main__h2--noitalic{
+    display: flex;    
+} */
+
+.main__button {
+    background-color: #252326;
+    width: 150px;
+    height: 40px;
+    font-family: gotham-italic;
+}
+
+.main__button-poop{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+}
+
+.main__parragraph {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 40px;
+    height: 100px;
+    font-family: gotham-italic;
+}
+
+.main__div{
+    display: flex;
+}
+
+.footer {
+    background-color: gray;
+    padding: 10px 20px 15px 50px;
+    border: solid 20px #252326;
+}
+
+.footer__div {
+    padding: 0;
+}
+
+.footer__logo {
+    background-color: white;
+    width: 150px;
+}
+
+.footer__list {
+    display: inline;
+    list-style: none;
+}
+
+.footer__item {
+    display: flex;
+    justify-content: left;
+    align-items: top;
+}
+
+.footer__div--map {
+    display: flex;
+    justify-content: right;
+    align-items: top;
+    width: 500px;
+    height: 250px;
+    margin: 1px;
+}
+ 
+.footer__map {
+    display: flex;
+    justify-content: right;
+    align-items: top;
+    margin: 0%;
+}
+
+.tienda__div{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: 20px 10px;
+    margin-bottom: 10%;
+    border: solid 20px #252326;
+    position: sticky;
+}
+
+.sobre__div{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: 20px 10px;
+    margin-bottom: 10%;
+    border: solid 20px #252326;
+    position: sticky;
+
+}
+
+.sobre__h2{
+    color: #252326;
+    font-size: 2rem;
+    font-family: gotham-italic;
+    width: 50vh;
+    height: 5vh;
+}
+
+
