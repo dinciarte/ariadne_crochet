@@ -27,19 +27,22 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: gray;
-    height: 100%;
-    width: 100%;
     padding: 20px 10px;
     margin-bottom: 10%;
     border: solid 20px #252326;
     position: sticky;
     border-radius: 10px;
+    flex-wrap: wrap;
 }
 
 .header__logo{
     background-color: white;
-    max-width: 20%;
+    max-width: 15%;
     border-radius: inherit;
+}
+
+.header__logo:hover {
+    cursor: pointer;
 }
 
 .header__nav {
@@ -82,6 +85,7 @@ body {
     background-position: right;
     background-color: white;
     background-size: contain;
+    ;
 }
 
 .main__section {
@@ -127,7 +131,7 @@ body {
     font-family: gotham-italic;
 }
 
-.main__button-poop{
+.main__button-poop {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -145,6 +149,38 @@ body {
 
 .main__div{
     display: flex;
+}
+
+
+.complementomain__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 25px 20px 55px;
+    border: solid 10px #252326;
+    margin: 5%;
+
+}
+
+.complementomain__div {
+    display: flex;
+    justify-content: left;
+
+}
+
+.div__complemento {
+    display: flex;
+    justify-content: right;
+}
+
+
+.contenedor__clientes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 25px 20px 55px;
+    border: solid 10px #252326;
+    margin: 5%;
 }
 
 .footer {
@@ -223,5 +259,3 @@ body {
     width: 50vh;
     height: 5vh;
 }
-
-

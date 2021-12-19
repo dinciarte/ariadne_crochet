@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* fonts */
+
+@font-face {
+    font-family: gisrida;
+    src: url(../assets/font/gisrida.ttf);
+  }
+
+@font-face {
+    font-family: gotham-italic;
+    src: url(../assets/font/GothamBookItalic.ttf);
+  }
+
+/* fonts */
+
+body {
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 20px 10px;
+    margin-bottom: 10%;
+    border: solid 20px #252326;
+    position: sticky;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.header__logo{
+    background-color: white;
+    max-width: 15%;
+    border-radius: inherit;
+}
+
+.header__logo:hover {
+    cursor: pointer;
+}
+
+.header__nav {
+    background-color: black ;
+    padding: 1rem;
+    right: 0;
+    font-family: gotham-italic;
+    border-radius: inherit;
+
+}
+
+.header__list {
+  list-style: none;
+  display: flex;
+  margin: 0px 1rem;
+  border-radius: 1px;
+}
+
+.header__item {
+    display: inline-block;
+    /* background-color: white; */
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px 5px;
+}
+
+.header__item:hover {
+    background-color: white;
+}
