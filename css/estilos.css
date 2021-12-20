@@ -196,9 +196,9 @@ body {
     grid-template-rows: 3fr 1fr 2fr ;
 
 }
-
+/* 
 .img__clientes{
-}
+} */
 
 
 .clientes__h2{
@@ -298,7 +298,7 @@ body {
 
 .main__tienda {
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -314,9 +314,16 @@ body {
 
 }
 
-.div__fieldset {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1f 1fr;
-    gap: 10px;
-}
+/* .div__fieldset {
+
+} */
+ 
+
+/* MEDIA QUERIES */
+
+/* @media screen and (min-width: 768) {
+  
+    flex-direction: column;
+    
+} */
+
