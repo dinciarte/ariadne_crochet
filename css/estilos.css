@@ -18,7 +18,7 @@
 
 /* fonts */
 
-body {
+.body {
     background-color: white;
 }
 
@@ -321,9 +321,13 @@ body {
 
 /* MEDIA QUERIES */
 
-/* @media screen and (min-width: 768) {
-  
-    flex-direction: column;
+@media screen and (min-width: 425) {
     
-} */
+    .header .body .header__logo .header__nav .contenedor__clientes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}
 
