@@ -196,17 +196,16 @@
     grid-template-rows: 3fr 1fr 2fr ;
 
 }
-/* 
+
 .img__clientes{
-} */
+    max-width: 100%;
+}
 
 
 .clientes__h2{
     color: #fff;
     font-size: 2rem;
     font-family: gotham-italic;
-    width: 50vh;
-    height: 5vh;
     display: flex;
     align-self: center;
 
@@ -319,15 +318,65 @@
 } */
  
 
+
+/* CLASSES SECTION TUTO */
+
+.vid__tuto{
+    max-width: 100%;
+}
+
+.tuto__h3{
+    color: #fff;
+    font-size: 2rem;
+    font-family: gotham-italic;
+    display: flex;
+    align-self: center;
+}
+
+
+.tuto_parragraph{
+    display: flex;
+    align-self: baseline;
+    font-family: gotham-italic;
+}
+
+/* FIN CLASSES SECTION TUTO */
+
+
+/* CLASSES SECTION REGALA*/
+
+.img__tienda{
+    max-width: 100%;
+}
+
+.tienda__h2{
+    color: #fff;
+    font-size: 2rem;
+    font-family: gotham-italic;
+    display: flex;
+    align-self: center;
+}
+
+.tienda__parragraph{
+    display: flex;
+    align-self: baseline;
+    font-family: gotham-italic;
+}
+
+
+/* FIN CLASSES SECTION REGALA*/
+
+
 /* MEDIA QUERIES */
 
-@media screen and (min-width: 425) {
+/* @media screen and (min-width: 425px) {
     
-    .header .body .header__logo .header__nav .contenedor__clientes {
+    .header, .body, .header__logo, .header__nav, .contenedor__clientes, .footer {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
     
-}
+} */
 

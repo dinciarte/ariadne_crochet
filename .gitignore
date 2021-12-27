@@ -1,0 +1,8 @@
+.vscode/
+.gitignore
+node_modules/
+
+
+git remote add origin https://github.com/dinciarte/ariadne_crochet.git
+git branch -M main
+git push -u origin main
