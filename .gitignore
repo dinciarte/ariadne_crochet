@@ -1,7 +1,7 @@
-vscode/
+.vscode
 gitignore
 node_modules/
-Ariadne.pdf
+Ariadne.pdf/
 
 
 git remote add origin https://github.com/dinciarte/ariadne_crochet.git
