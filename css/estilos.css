@@ -394,7 +394,7 @@
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
     
     .header, .body, .header__logo, .header__nav, .contenedor__clientes, .footer, .main__section, .main__tienda   {
         display: flex;
@@ -402,6 +402,14 @@
         justify-content: center;
     }
 
+    .hero{
+        max-width: fit-content;
+    }
+
+    /* .header {
+        max-width: 100%;
+    } */
+    
     .main__article{
         height: 150vh;
     }
